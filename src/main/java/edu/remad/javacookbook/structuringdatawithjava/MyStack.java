@@ -15,7 +15,7 @@ public class MyStack<T> implements SimpleStack<T> {
   /**
    * the space limit of the stack
    */
-  public static final int DEFAULT_DIGITAL = 10;
+  public static final int DEFAULT_INITIAL = 10;
 
   /**
    * the stack
@@ -26,7 +26,7 @@ public class MyStack<T> implements SimpleStack<T> {
    * Constructor
    */
   public MyStack() {
-    this(DEFAULT_DIGITAL);
+    this(DEFAULT_INITIAL);
   }
 
   /**
